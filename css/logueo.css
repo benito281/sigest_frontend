@@ -1,0 +1,68 @@
+/*Formulario*/
+.contenido {
+  margin: auto;
+  margin-top: 160px;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border: 1px #a0a0a0 solid;
+  width: 400px;
+  height: 450px;
+  margin-bottom: 400px;
+}
+/*Logo de formulario*/
+.logo {
+  display: flex;
+  margin: auto;
+  box-sizing: border-box;
+  border-style: none;
+  vertical-align: middle;
+}
+/*Titulo de formulario */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*Entrada de datos Usuario Y contraseña*/
+#entrada {
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+  width: 100%;
+  box-sizing: border-box;
+}
+/*Efecto de formulario*/
+#entrada:focus {
+  background-color: black;
+  color: white;
+  border: none;
+}
+/*Checkbox*/
+label {
+  position: relative;
+  left: 5px;
+}
+/*Botin de iniciar sesión*/
+#boton {
+  padding: 8px;
+  border-radius: 18px;
+  border: 1px black solid;
+  background-color: white;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+#boton:hover {
+  background-color: black;
+  color: white;
+}
+.link {
+  float: left;
+  position: relative;
+  left: 112px;
+  top: 20px;
+  text-decoration: none;
+}
